@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News Task</string>
+    <string name="socketTimeout">Socket Time Out</string>
+    <string name="Jsonpars">Json Parsing Error</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="txt_retry">Retry</string>
+</resources>
