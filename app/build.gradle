@@ -46,6 +46,19 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
+    flavorDimensions "default"
+
+    productFlavors{
+        free{
+            applicationId "com.mabrouk.newstask.free"
+        }
+
+        paid{
+            applicationId "com.mabrouk.newstask.paid"
+        }
+    }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_11
         targetCompatibility JavaVersion.VERSION_11
