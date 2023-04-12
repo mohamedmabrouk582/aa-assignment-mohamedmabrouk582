@@ -1,6 +1,5 @@
 package com.mabrouk.newstask.remote
 
-import com.mabrouk.newstask.BuildConfig
 import okhttp3.mockwebserver.Dispatcher
 import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.RecordedRequest
