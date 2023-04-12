@@ -55,6 +55,7 @@ android {
         }
 
         paid{
+
             applicationId "com.mabrouk.newstask.paid"
         }
     }
