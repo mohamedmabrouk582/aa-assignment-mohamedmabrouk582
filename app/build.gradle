@@ -52,11 +52,16 @@ android {
     productFlavors{
         free{
             applicationId "com.mabrouk.newstask.free"
+            applicationIdSuffix ".free"
+            versionCode 1
+            versionName "1.0-free"
         }
 
         paid{
-
             applicationId "com.mabrouk.newstask.paid"
+            applicationIdSuffix ".paid"
+            versionCode 1
+            versionName "1.0-paid"
         }
     }
 
